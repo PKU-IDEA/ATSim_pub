@@ -15,6 +15,7 @@ ATSim 2.0 is associated with papers published at ISEDA 2025 and ASICON 2025.
 - [Features](#features)
 - [Examples](#examples)
 - [Troubleshooting](#troubleshooting)
+- [Citation](#citation)
 - [Contact](#contact)
 
 ## Overview
@@ -327,9 +328,32 @@ If the temperature field remains near ambient temperature, check that:
 - power values are nonzero
 - the intended power file is referenced by the XML file
 
+## Citation
+
+If you use ATSim in your research, please cite the following publications:
+
+```bibtex
+@inproceedings{wang2025atsim3,
+  title={Atsim3. 5d: A multiscale thermal simulator for 3.5 d-ic systems based on nonlinear multigrid method},
+  author={Wang, Qipan and Zhu, Tianxiang and Lin, Yibo and Wang, Runsheng and Huang, Ru},
+  booktitle={2025 International Symposium of Electronics Design Automation (ISEDA)},
+  pages={595--601},
+  year={2025},
+  organization={IEEE}
+}
+
+@inproceedings{wang2025atsim,
+  title={ATSim: A Fast and Accurate Simulation Framework for 2.5 D/3D Chiplet Thermal Design Optimization},
+  author={Wang, Qipan and Zhu, Tianxiang and Cui, Jiajia and Wei, Yicheng and Shen, Linxiao and Cheng, Zhe and Wang, Runsheng and Huang, Ru and Lin, Yibo},
+  booktitle={2025 IEEE 16th International Conference on ASIC (ASICON)},
+  pages={1--4},
+  year={2025},
+  organization={IEEE}
+}
+```
+
 ## Contact
 
 For questions, issues, or support, please contact the developers:
 
 - txzhu@pku.edu.cn
-- qpwang@pku.edu.cn
