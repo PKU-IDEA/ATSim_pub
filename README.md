@@ -50,6 +50,35 @@ and heatsinks while preserving physical fidelity and improving runtime.
 
 ATSim 2.0 is recommended for Ubuntu 20.04.
 
+### Clone the Repository
+
+The `bin/ATSim` executable is stored with [Git LFS](https://git-lfs.com/)
+because it is too large for regular Git storage. Install and initialize Git LFS
+before cloning the repository so that Git downloads the executable itself rather
+than only its small LFS pointer file:
+
+```bash
+sudo apt-get install git-lfs
+git lfs install
+git clone https://github.com/PKU-IDEA/ATSim_pub.git
+cd ATSim_pub
+```
+
+If the repository was cloned before Git LFS was installed, retrieve the
+executable with:
+
+```bash
+git lfs install
+git lfs pull
+```
+
+After a successful download, `bin/ATSim` should be an executable file of about
+121 MiB, not a short text file whose first line is:
+
+```text
+version https://git-lfs.github.com/spec/v1
+```
+
 ### Basic Workflow
 
 1. Prepare the package XML file, simulation configuration, material library,
